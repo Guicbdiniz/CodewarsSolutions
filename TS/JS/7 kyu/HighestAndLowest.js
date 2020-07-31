@@ -8,7 +8,7 @@ var Kata = /** @class */ (function () {
             .split(' ')
             .map(function (str) { return parseInt(str); })
             .sort(function (a, b) { return a - b; });
-        return arrayOfNumbers.[arrayOfNumbers.length - 1] + " " + arrayOfNumbers[0];
+        return arrayOfNumbers[arrayOfNumbers.length - 1] + " " + arrayOfNumbers[0];
     };
     return Kata;
 }());
