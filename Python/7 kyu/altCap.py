@@ -6,7 +6,7 @@ def capitalize(s: str):
     second_string = ''
 
     for index in range(len(s)):
-        if(index % 2 == 0):
+        if index % 2 == 0:
             first_string += s[index].upper()
             second_string += s[index].lower()
         else:
