@@ -1,4 +1,9 @@
 # Write Number in Expanded Form - 6 kyu
+# https://www.codewars.com/kata/5842df8ccbd22792a4000245
+
+# You will be given a number and you will need to return it as a string in Expanded Form.
+
+
 def expanded_form(num):
     num_length = len(str(num))
 

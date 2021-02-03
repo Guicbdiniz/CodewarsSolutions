@@ -1,4 +1,7 @@
 # RoboScript #1 - Implement Syntax Highlighting - 6 kyu
+# https://www.codewars.com/kata/58708934a44cfccca60000c4
+
+# Access the link for a long task description.
 
 
 def highlight(code: str):
@@ -13,7 +16,8 @@ def highlight(code: str):
     for index, letter in enumerate(code):
         if letter in 'FLR':
             if index == 0 or code[index - 1] != letter:
-                highlighted_code += '<span style="color: ' + letter_to_color[letter] + '">'
+                highlighted_code += '<span style="color: ' + \
+                    letter_to_color[letter] + '">'
 
             highlighted_code += letter
 

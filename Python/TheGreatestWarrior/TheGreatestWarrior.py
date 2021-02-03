@@ -1,4 +1,8 @@
 # The Greatest Warrior - 4kyu
+# https://www.codewars.com/kata/5941c545f5c394fef900000c
+
+# Create a class called Warrior which calculates and keeps track of their level and skills, and ranks them as the warrior they've proven to be.
+# For more info, check the link above.
 
 
 def get_the_correct_rank_from_level(level: int) -> str:
@@ -7,7 +11,8 @@ def get_the_correct_rank_from_level(level: int) -> str:
     level_length = len(str(level))
     if level_length == 2:
         level_first_digit = int(str(level)[0])
-        ranks = ["-", "Novice", "Fighter", "Warrior", "Veteran", "Sage", "Elite", "Conqueror", "Champion", "Master"]
+        ranks = ["-", "Novice", "Fighter", "Warrior", "Veteran",
+                 "Sage", "Elite", "Conqueror", "Champion", "Master"]
         rank = ranks[level_first_digit]
     elif level_length == 3:
         rank = 'Greatest'
@@ -105,7 +110,8 @@ class Warrior(object):
                 if get_the_correct_rank_from_level(battle_lv) != self._rank and abs(level_difference) > 4:
                     return 'You\'ve been defeated'
                 else:
-                    self._gain_experience(20 * level_difference * level_difference)
+                    self._gain_experience(
+                        20 * level_difference * level_difference)
                     return 'An intense fight'
             else:
                 return 'Easy fight'

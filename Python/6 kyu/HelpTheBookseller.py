@@ -1,4 +1,7 @@
 # Help the bookseller ! - 6kyu
+# https://www.codewars.com/kata/54dc6f5a224c26032800005c
+
+# Access the link for a long task description.
 
 
 def stock_list(list_of_art, list_of_cat):
@@ -16,4 +19,5 @@ def stock_list(list_of_art, list_of_cat):
     return ' - '.join([f'({x} : {y})' for x, y in category_to_quantity.items()])
 
 
-print(stock_list(["ABAR 200", "CDXE 500", "BKWR 250", "BTSQ 890", "DRTY 600"], ["A", "B"]))
+print(stock_list(["ABAR 200", "CDXE 500", "BKWR 250",
+                  "BTSQ 890", "DRTY 600"], ["A", "B"]))

@@ -1,4 +1,8 @@
 # Repetitive Sequence - Easy Version - 4kyu
+# https://www.codewars.com/kata/5f134651bc9687000f8022c4
+
+# Let's write a sequence starting with seq = [0, 1, 2, 2] in which 0 and 1 occurs 1 time, 2 occurs 2 time and
+# sequence advances with adding next natural number seq[natural number] times so now, 3 appears 2 times and so on.
 
 
 def find(n):

@@ -1,4 +1,7 @@
 # Directions Reduction - 5kyu
+# https://www.codewars.com/kata/550f22f4d758534c1100025a
+
+# Access the link for a long task description.
 
 opposite_directions = {
     'SOUTH': 'NORTH',

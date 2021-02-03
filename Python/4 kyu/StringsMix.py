@@ -1,4 +1,7 @@
 # Strings Mix - 4kyu
+# https://www.codewars.com/kata/5629db57620258aa9d000014
+
+# Access the link for a long task description.
 
 import re
 

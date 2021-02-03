@@ -1,4 +1,9 @@
 # Take a Number And Sum Its Digits Raised To The Consecutive Powers And ....¡Eureka!! - 6kyu
+# https://www.codewars.com/kata/5626b561280a42ecc50000d1
+
+# Access the link for a long task description.
+
+
 import math
 
 

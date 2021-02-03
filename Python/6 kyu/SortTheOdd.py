@@ -1,5 +1,7 @@
 # Sort the odd - 6kyu
+# https://www.codewars.com/kata/578aa45ee9fd15ff4600090d
 
+# You will be given an array of numbers. You have to sort the odd numbers in ascending order while leaving the even numbers at their original positions.
 
 def sort_array(source_array: list):
     sorted_odds = sorted([x for x in source_array if x % 2 == 1], reverse=True)

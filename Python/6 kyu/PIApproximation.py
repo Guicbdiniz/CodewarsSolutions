@@ -1,4 +1,8 @@
 # PI approximation - 6kyu
+# https://www.codewars.com/kata/550527b108b86f700000073f
+
+# Access the link for a long task description.
+
 import math
 
 
@@ -9,7 +13,8 @@ def iter_pi(epsilon):
     number_of_iter = 0
 
     while abs(math.pi - my_pi) > epsilon:
-        my_pi += 4 * (1 / denominator) if not negative else -4 * (1 / denominator)
+        my_pi += 4 * (1 / denominator) if not negative else - \
+            4 * (1 / denominator)
         number_of_iter += 1
         denominator += 2
         negative = not negative

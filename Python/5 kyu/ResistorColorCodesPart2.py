@@ -1,4 +1,7 @@
 # Resistor Color Codes, Part 2 - 5kyu
+# https://www.codewars.com/kata/5855777bb45c01bada0002ac
+
+# Access the link for a long task description.
 
 import re
 

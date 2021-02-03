@@ -1,5 +1,7 @@
 # Multiply to n - 4kyu
+# https://www.codewars.com/kata/5f1891d30970800010626843
 
+# Given a positive integer, n, return the number of possible ways such that k positive integers multiply to n. Order matters.
 
 def prime_factors_of(n):
     i = 2
